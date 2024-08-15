@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="img\logo.jpg" alt="Company Logo">
+            <h2>Merging Farming With Technology</h2>
+        </div>
+
+        <form id="registration-form">
+            <div class="form-group">
+                <label for="name">Name (required)</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email (optional)</label>
+                <input type="email" id="email" name="email" >
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone number (required)</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password (required)</label>
+                <input type="password" id="password" name="password" required>
+                <small>Must be at least 8 characters, contain an uppercase letter, a lowercase letter, a number, and a special character.</small>
+            </div>
+
+            <div class="form-group">
+                <label for="confirm-password">Confirm password</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+
+            <div class="form-group">
+                <label for="role">Role selection</label>
+                <select id="role" name="role" required>
+                    <option value="">Select your role</option>
+                    <option value="student">Farmer</option>
+                    <option value="student">Processor</option>
+                    <option value="student">Distributor</option>
+                    <option value="student">Retailer</option>
+                    <option value="student">Consumer</option>
+                    <option value="student">Financial Institution</option>
+
+                </select>
+            </div>
+
+            <div class="form-group">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the <a href="#">terms and conditions</a></label>
+            </div>
+
+            <button type="submit" class="cta-button">Create Account</button>
+        
+        </form>
+        <div class="form-group">
+            <a href="signin.html" class="cta-button sign-in-button">Already have an account? Sign In</a>
+            <a href="home.html" class="cta-button explore-button">Explore</a>
+        </div>
+        <div class="footer">
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Terms of Service</a> 
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

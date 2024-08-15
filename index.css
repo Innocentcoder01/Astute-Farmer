@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('img/BG.index.jpg') no-repeat center center fixed;
+    background: burl;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.welcome-container {
+    max-width: 800px;
+    max-height: 500px;
+    height: 450px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.headline {
+    font-size: 46px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.subheadline {
+    font-size: 34px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.body-text {
+    font-size: 22px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cta-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 30%; /* Adjust the width to make buttons consistent */
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}

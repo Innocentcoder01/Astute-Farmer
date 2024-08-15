@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="img/logo.jpg" alt="App Logo">
+            <h2>Merging Farming With Technology</h2>
+        </div>
+
+        <form id="login-form">
+            <div class="form-group">
+                <label for="username">Email or Username (required)</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password (required)</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="form-group">
+                <input type="checkbox" id="remember-me" name="remember-me">
+                <label for="remember-me">Remember me</label>
+            </div>
+
+            <button type="submit" class="cta-button">Login</button>
+        </form>
+
+        <a href="signup.html" class="cta-button sign-in-button">Don't have an account? Create Account</a>
+        <a href="home.html" class="cta-button explore-button">Explore</a>
+
+        <div class="footer">
+            <a href="#">Forgot Password?</a>
+        </div>
+    </div>
+
+    <script src="login-script.js"></script>
+</body>
+</html>
